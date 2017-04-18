@@ -1,0 +1,30 @@
+{
+  "name": "almightymodelmanager",
+  "version": "1.0.0",
+  "description": "very powerful helper to easily and fast construct a complex data model with various different custom object types and data structures",
+  "main": "almightyModelManager.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dennis Sterzenbach <dennis.sterzenbach@gmail.com>",
+  "contributors": [
+    {
+      "name": "Nikolas Schmidt-Voigt",
+      "email": "nikolas.schmidt-voigt@posteo.de"
+    }
+  ],
+  "files": [
+    "almightyModelManager.example1.js",
+    "almightyModelManager.spec.js",
+    "almightyModelManager.js"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nyc": "^10.2.0",
+    "should": "^11.2.1",
+    "sinon": "^2.1.0"
+  }
+}
